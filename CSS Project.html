@@ -1,0 +1,90 @@
+<html>
+<head>
+
+
+<title>
+Royal Challengers Bangalore(RCB)
+</title>
+ <link rel = "icon" href = 
+"https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg?q=60" 
+        type = "image/x-icon">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+<script>
+function show_images(){
+var row1 = "<img src = 'https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg?q=60' height = 400px width = 500px><br><br><br><br><img src = 'https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/01/23/952128-virat-kohli-rcb.jpg' height = 400px width = 500px><br><br><br><br><img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEVFLXeGg4DxcErfLWxrAbX-A_aHW02WFS-mrYdct62m7UmstQH1J2Inrq6MtbNEDHKE&usqp=CAU' height = 400px width = 700px><br><br><br><br><img src = 'https://static.toiimg.com/thumb/msid-72902449,width-1200,height-900,resizemode-4/.jpg' height = 400px width = 500px><br><br><br><br><img src = 'https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/09/09/924118-rcb.jpg' height = 400px width = 600px>";
+document.getElementById("output").innerHTML = row1;
+}
+function hide_images(){
+document.getElementById("output").innerHTML = "";
+}
+
+function show_video(){
+var videorow = "<video width='800' height='600' controls><source src = 'Official RCB Anthem for Dream11 IPL 2020-(You2Audio.Com).mp4' controls>";
+document.getElementById("output2").innerHTML = videorow;
+}
+
+function hide_video(){
+document.getElementById("output2").innerHTML = "";
+}
+</script>
+
+
+
+
+
+<style>
+.body_background{
+background-color: navy;
+}
+#RCB_info{
+color: crimson;
+font-size: 18px;
+text-align: left;
+}
+a{
+color: greenyellow;
+}
+h1{
+color: red;
+font-size: 55px;
+}
+</style>
+</head>
+
+<body class = "body_background">
+<center>
+<span>
+<h1><i><b>Royal Challengers Bangalore</b></i></h1><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5y6WHNe7Np24BHoIkVBfVv0qeSBEecwugrA&usqp=CAU" height = 175px width = 175px>
+</span>
+<br>
+<br>
+<h2><abbr title = "Click Here to Go To RCB Official Website"><a href = "https://www.royalchallengers.com/">Royal Challengers Bangalore(RCB)</a></abbr></h2>
+<br>
+<br>
+<p id = "RCB_info">
+Rcb is one of the most unsuccessful teams in IPL. This does not make it the weakest. It is one of the best teams and is the most successful in making mind-blowing records. It has made many records. RCB has never one the IPL yet it is awesome. It has one of the most successive players. Including the Indian Captian Virat Kohli. The Royal Challengers Bangalore (often abbreviated as RCB) are a franchise cricket team based in Bangalore, Karnataka, that plays in the Indian Premier League (IPL). It was founded in 2008 by United Spirits and named after the company's liquor brand Royal Challenge. Since its inception, the team has played its home matches at the M. Chinnaswamy Stadium. The Royal Challengers have never won the IPL but finished runners-up on three occasions between 2009 and 2016. Their lack of success over the years despite the presence of various notable players has earned them the tag of "underachievers". The team holds the records of both the highest and the lowest totals in the IPL – 263/5 and 49 respectively.
+</p>
+<br>
+<br>
+<div id="output"></div>
+<br>
+<button id = "images_show" onclick = "show_images()" class = "btn btn-success">Click Here To Show Images</button>
+<button onclick = "hide_images()" class = "btn btn-danger">Click Here To Hide Images</button>
+<br>
+<br>
+<div id = "output2"></div>
+<br>
+<br>
+<button id = "video_show" class = "btn btn-success" onclick = "show_video()">Click here to show Video</button>
+<button id = "video_stop" class = "btn btn-danger" onclick = "hide_video()">Click here to hide Video</button>
+</center>
+</body>
+</html>
